@@ -24,7 +24,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/ailearn.git
+git clone https://github.com/kenyanghui/ailearn.git
 
 # 直接用浏览器打开任意培训 PPT
 open training/ai-coach-ima/index.html
