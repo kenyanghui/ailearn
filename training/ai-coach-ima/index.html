@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI教练场景化ima应用 · 青少年学习力提升培训方案</title>
+<title>AI教练场景化ima应用 · 慧佳分青少年AI学习力专属版</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&family=Noto+Sans+SC:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -1223,510 +1223,47 @@
      页面骨架参考 references/layouts-swiss.md
      主题色配置参考 references/themes-swiss.md
      ============================================================ -->
-<!-- ════════════════════════════════════════════════════════════
-     SLIDES · AI教练场景化ima应用 · 12 页瑞士风 · IKB 克莱因蓝
-     ════════════════════════════════════════════════════════════ -->
-
-<!-- 01 · COVER · IKB 满屏 + ASCII 呼吸场 -->
-<section class="slide accent" data-layout="SWISS-COVER-ASCII" data-animate="hero">
-  <div class="canvas-card">
-    <canvas class="ascii-bg" aria-hidden="true"></canvas>
-    <div class="chrome-min">
-      <div class="l">AI COACH × IMA · TRAINING PROGRAM</div>
-      <div class="r">SS · 2026 · 01 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
-      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">青少年学习力提升 · 五大场景智能工作流</div>
-      <h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(9.6vw,16vh);line-height:1.02;letter-spacing:-.03em;color:#fff">AI教练<span style="font-style:italic;font-weight:300">场景化</span><br/>ima应用</h1>
-      <div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
-        <div data-anim="lead" class="lead" style="max-width:52ch;color:rgba(255,255,255,.86);font-weight:300">基于ima知识库 + Copilot，为青少年学习力教练打造「学习档案 + 智能分析」双引擎工作流。</div>
-        <div style="display:flex;justify-content:space-between;align-items:end">
-          <div class="t-meta" style="color:rgba(255,255,255,.6)">学习力教练培训方案 · 2026</div>
-          <div class="t-meta" style="color:rgba(255,255,255,.6)">→ swipe / ← → keys</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 02 · S03 · Split Statement · 核心主张 -->
-<section class="slide split" data-layout="S03" data-animate="split-statement">
-  <div class="canvas-card">
-    <div class="split-half">
-      <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:center;position:relative;overflow:hidden">
-        <canvas class="ascii-bg" aria-hidden="true"></canvas>
-        <div data-anim="manifesto" style="position:relative;z-index:1;display:flex;flex-direction:column;gap:2vh">
-          <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">CORE PROPOSITION</div>
-          <h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(6.6vw,12vh);line-height:1.04;letter-spacing:-.03em;font-weight:200;color:#fff">从<span style="font-style:italic;font-weight:300">经验驱动</span><br/>到AI驱动</h2>
-        </div>
-      </div>
-      <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:center">
-        <div data-anim="rules" style="display:flex;flex-direction:column;gap:3vh">
-          <div class="t-cat accent">培训目标</div>
-          <p class="lead" style="font-weight:300;max-width:36ch;font-size:max(18px,1.3vw);line-height:1.6">掌握ima知识库与Copilot的核心用法，针对青少年学习力提升的典型场景，快速构建<strong>「学习档案（记忆）+ 智能分析（思考）」</strong>的工作流。</p>
-          <div style="display:flex;flex-direction:column;gap:1.6vh">
-            <div style="display:flex;align-items:flex-start;gap:1.6vw">
-              <span style="font-family:var(--sans);font-weight:200;font-size:min(3.2vw,5.6vh);line-height:1;color:var(--accent)">01</span>
-              <div><strong style="font-size:max(18px,1.2vw);font-weight:500">ima知识库</strong><p style="font-size:max(16px,.94vw);color:var(--text-secondary)">每个学生/家庭的「学习档案库」与教练的「方法工具库」</p></div>
-            </div>
-            <div style="display:flex;align-items:flex-start;gap:1.6vw">
-              <span style="font-family:var(--sans);font-weight:200;font-size:min(3.2vw,5.6vh);line-height:1;color:var(--accent)">02</span>
-              <div><strong style="font-size:max(18px,1.2vw);font-weight:500">ima Copilot</strong><p style="font-size:max(16px,.94vw);color:var(--text-secondary)">教练的「智慧副驾」——学情分析、生成话术、设计干预方案</p></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 03 · S04 · Six Cells · 六大训练场景全景 -->
-<section class="slide light" data-layout="S04" data-animate="grid-reveal">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">TRAINING MODULES · 六大场景</div>
-      <div class="r">03 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:5vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">SCENARIO MAP</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:1.05;letter-spacing:-.025em">学习力教练的六大核心战场</h2>
-      </div>
-      <div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:2.4vh 1.6vw">
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="file-search" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">01</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">学情诊断</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">从试卷和抱怨到精准诊断报告</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="heart-handshake" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">02</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">动力激发</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">打破限制性信念，重燃内驱力</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="brain" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">03</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">方法指导</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">把无效刷题变成刻意练习</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="calendar-check" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">04</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">习惯养成</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">30天结构化思维训练计划</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="users" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">05</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">家长沟通</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">让焦虑家长从监督者变陪伴者</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh">
-          <i data-lucide="target" style="width:2vw;height:2vw;stroke-width:1.4;color:var(--accent)"></i>
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(3vw,5vh);line-height:1;color:var(--text-primary)">06</span>
-          <h4 style="font-weight:500;font-size:max(18px,1.2vw);line-height:1.3">考试冲刺</h4>
-          <p style="font-size:max(16px,.88vw);color:var(--text-secondary);line-height:1.5">中高考前科学冲刺与心态调适</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 04 · S08 · Duo Compare · 模块一：学情诊断 Before/After -->
-<section class="slide light" data-layout="S08" data-animate="duo-mirror">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">MODULE 01 · 学情诊断与目标共识</div>
-      <div class="r">04 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:4vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">SCENE 01 · DIAGNOSIS</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.8vw,10.2vh);line-height:1;letter-spacing:-.025em">从「一堆试卷和抱怨」到「一份精准诊断报告」</h2>
-      </div>
-      <div class="duo-compare" data-anim="up" style="margin-top:0">
-        <div class="col">
-          <div class="col-tag"><span class="num">BEFORE</span>&nbsp;传统方式</div>
-          <div class="col-ttl" style="font-size:min(2.8vw,5vh)">凭经验梳理</div>
-          <div class="col-desc">家长带来试卷、作业和一堆抱怨——"他粗心""他懒""他不认真"。信息零散，教练需花1-2小时梳理。</div>
-          <ul class="col-list">
-            <li>手动翻阅试卷找错题规律</li>
-            <li>凭直觉判断能力短板</li>
-            <li>口头沟通缺乏数据支撑</li>
-          </ul>
-        </div>
-        <span class="vrule"></span>
-        <div class="col accent">
-          <div class="col-tag"><span class="num">AFTER</span>&nbsp;AI赋能</div>
-          <div class="col-ttl" style="font-size:min(2.8vw,5vh)">15分钟出报告</div>
-          <div class="col-desc">现场建档案 → 拖入资料 → Copilot智能诊断 → 输出结构化报告 + 家长沟通话术。</div>
-          <ul class="col-list">
-            <li>各题型得分率自动分析</li>
-            <li>能力短板 + 非智力因素诊断</li>
-            <li>数据化共识会沟通话术</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 05 · S13 · Three Forces · 模块二：三种限制性信念 -->
-<section class="slide dark" data-layout="S13" data-animate="three-forces">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">MODULE 02 · 学习动力激发与心理疏导</div>
-      <div class="r">05 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-columns:5fr 7fr;gap:3vw">
-      <div data-anim="left" style="display:flex;flex-direction:column;justify-content:center;gap:3vh;background:var(--accent);padding:4vh 2.4vw;color:var(--accent-on)">
-        <div class="t-meta" style="color:rgba(255,255,255,.72)">SCENE 02 · MOTIVATION</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:1.04;letter-spacing:-.025em;color:#fff">面对「躺平」的青少年<br/>如何<span style="font-style:italic;font-weight:300">打开心扉</span>？</h2>
-        <p style="font-size:max(16px,.94vw);color:rgba(255,255,255,.8);line-height:1.55;font-weight:300;max-width:28ch">基于冰山理论、萨提亚沟通姿态、NLP六层次等专业心理模型，用AI辅助科学分析背后信念。</p>
-        <div class="dot-mat" style="width:8vw;height:8vw;opacity:.22;color:#fff"></div>
-      </div>
-      <div data-anim="right" style="display:flex;flex-direction:column;gap:2vh;justify-content:center">
-        <div class="t-cat accent" style="font-size:14px">学习动力三大病毒</div>
-        <div class="card-fill" style="padding:2.4vh 2vw;display:flex;align-items:flex-start;gap:2vw">
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(4.6vw,8vh);line-height:1;color:var(--accent);flex-shrink:0">01</span>
-          <div>
-            <h4 style="font-weight:500;font-size:max(18px,1.3vw);line-height:1.3;margin-bottom:.6vh">无望</h4>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"我怎么学都学不好"——对结果绝望，不相信努力能改变</p>
-          </div>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 2vw;display:flex;align-items:flex-start;gap:2vw">
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(4.6vw,8vh);line-height:1;color:var(--accent);flex-shrink:0">02</span>
-          <div>
-            <h4 style="font-weight:500;font-size:max(18px,1.3vw);line-height:1.3;margin-bottom:.6vh">无助</h4>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"努力也没用"——对自己能力的否定，习得性无助</p>
-          </div>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 2vw;display:flex;align-items:flex-start;gap:2vw">
-          <span style="font-family:var(--sans);font-weight:200;font-size:min(4.6vw,8vh);line-height:1;color:var(--accent);flex-shrink:0">03</span>
-          <div>
-            <h4 style="font-weight:500;font-size:max(18px,1.3vw);line-height:1.3;margin-bottom:.6vh">无价值</h4>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"爸妈只关心分数"——感受不到被接纳，自我价值感低</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 06 · S11 · Horizontal Timeline · 模块三：学习策略改进 -->
-<section class="slide light" data-layout="S11" data-animate="timeline-walk">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">MODULE 03 · 学习方法指导与习惯养成</div>
-      <div class="r">06 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:4vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">SCENE 03 · LEARNING STRATEGY</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.6vw,10vh);line-height:1;letter-spacing:-.025em">把「无效刷题」变成「刻意练习」</h2>
-      </div>
-      <div data-anim="up" style="display:flex;flex-direction:column;gap:2.4vh">
-        <p class="lead" style="font-weight:300;max-width:60ch;font-size:max(18px,1.2vw)">基于"高强度用脑""结构化思维""信息循环"等方法论，诊断学习系统漏洞，生成个性化30天训练处方。</p>
-        <div class="timeline-h" style="margin-top:3vh">
-          <span class="tl-h-axis"></span>
-          <div class="th-node up">
-            <span class="yr" style="font-family:var(--mono);font-size:14px;font-weight:600;color:var(--accent)">WEEK 1</span>
-            <span class="dot"></span>
-            <span class="label" style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1vw)">思维导图整理</span>
-            <span class="desc" style="font-size:max(14px,.8vw);color:var(--text-secondary)">每天15分钟梳理知识结构</span>
-          </div>
-          <div class="th-node down">
-            <span class="yr" style="font-family:var(--mono);font-size:14px;font-weight:600;color:var(--accent)">WEEK 2</span>
-            <span class="dot"></span>
-            <span class="label" style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1vw)">费曼技巧讲错题</span>
-            <span class="desc" style="font-size:max(14px,.8vw);color:var(--text-secondary)">用自己的话复述解题过程</span>
-          </div>
-          <div class="th-node up">
-            <span class="yr" style="font-family:var(--mono);font-size:14px;font-weight:600;color:var(--accent)">WEEK 3</span>
-            <span class="dot"></span>
-            <span class="label" style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1vw)">错题本信息循环</span>
-            <span class="desc" style="font-size:max(14px,.8vw);color:var(--text-secondary)">建立"淘金式"错题复习系统</span>
-          </div>
-          <div class="th-node down accent">
-            <span class="yr" style="font-family:var(--mono);font-size:14px;font-weight:600;color:var(--accent)">WEEK 4</span>
-            <span class="dot"></span>
-            <span class="label" style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(16px,1vw)">模拟测试与复盘</span>
-            <span class="desc" style="font-size:max(14px,.8vw);color:var(--text-secondary)">全真模拟 + 结构化复盘</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 07 · S19 · Four Cards · 模块四：家长沟通四原则 -->
-<section class="slide light" data-layout="S19" data-animate="four-cards">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">MODULE 04 · 家校沟通与情绪疏导</div>
-      <div class="r">07 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:5vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">SCENE 04 · PARENT COMMUNICATION</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.6vw,10vh);line-height:1;letter-spacing:-.025em">让焦虑的家长从「监督者」变成「陪伴者」</h2>
-      </div>
-      <div data-anim="up" style="display:flex;flex-direction:column;gap:0">
-        <div style="height:2px;background:var(--accent);width:100%;margin-bottom:3vh"></div>
-        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.6vw">
-          <div style="display:flex;flex-direction:column;gap:2vh">
-            <div class="t-meta">— 01 / 非暴力沟通</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:min(2.4vw,4.2vh);line-height:1.2;letter-spacing:-.02em">描述事实<br/>而非评判</h3>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"我看到你最近三次数学考试都在70分以下"而非"你数学怎么这么差"</p>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:2vh">
-            <div class="t-meta">— 02 / 情绪接纳</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:min(2.4vw,4.2vh);line-height:1.2;letter-spacing:-.02em">先共情<br/>再建议</h3>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"我知道你很着急，每天盯作业确实很辛苦"——先肯定情绪再给方案</p>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:2vh">
-            <div class="t-meta">— 03 / 我信息表达</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:min(2.4vw,4.2vh);line-height:1.2;letter-spacing:-.02em">表达关心<br/>而非指责</h3>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">"我担心玩手机影响你的睡眠"而非"你又在玩手机，怎么说都不听"</p>
-          </div>
-          <div style="display:flex;flex-direction:column;gap:2vh">
-            <div class="t-meta" style="color:var(--accent)">— 04 / 重构问题</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:300;font-size:min(2.4vw,4.2vh);line-height:1.2;letter-spacing:-.02em;color:var(--accent)">玩手机≠态度差</h3>
-            <p style="font-size:max(16px,.9vw);color:var(--text-secondary);line-height:1.5">可能是在寻求掌控感或逃避压力，帮助家长看到行为背后的需求</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 08 · S02 · Vertical Timeline · 模块五：四周冲刺计划 -->
-<section class="slide dark" data-layout="S02" data-animate="stack-build">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">MODULE 05 · 考试冲刺与心态调适</div>
-      <div class="r">08 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:flex;flex-direction:column;gap:3vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">SCENE 05 · EXAM SPRINT</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.6vw,10vh);line-height:1;letter-spacing:-.025em">中高考前一个月<br/>科学冲刺与减压方案</h2>
-      </div>
-      <div class="timeline-v" data-anim="up" style="flex:1;margin-top:2vh">
-        <div class="tl-node">
-          <div class="tl-axis"><span class="dot"></span></div>
-          <span class="yr" style="font-weight:600;color:var(--accent)">W1</span>
-          <span class="multi">扫雷</span>
-          <p class="desc">利用错题本进行知识定位，逐一排查薄弱环节</p>
-        </div>
-        <div class="tl-node">
-          <div class="tl-axis"><span class="dot"></span></div>
-          <span class="yr" style="font-weight:600;color:var(--accent)">W2</span>
-          <span class="multi">保温</span>
-          <p class="desc">每天一套基础题保持手感，防止遗忘曲线下滑</p>
-        </div>
-        <div class="tl-node">
-          <div class="tl-axis"><span class="dot"></span></div>
-          <span class="yr" style="font-weight:600;color:var(--accent)">W3</span>
-          <span class="multi">仿真</span>
-          <p class="desc">严格按考试时间模拟，训练心态预演和时间管理</p>
-        </div>
-        <div class="tl-node accent">
-          <div class="tl-axis"><span class="dot"></span></div>
-          <span class="yr" style="font-weight:600;color:var(--accent)">W4</span>
-          <span class="multi">回归</span>
-          <p class="desc">回归课本笔记+调整作息+考前安心助眠冥想引导</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 09 · S05 · Three Layers · ima工具三层架构 -->
-<section class="slide dark" data-layout="S05" data-animate="grid-reveal">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">TOOL STACK · ima 三层架构</div>
-      <div class="r">09 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:5vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta" style="color:rgba(255,255,255,.62)">ARCHITECTURE</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:1.05;letter-spacing:-.025em;color:var(--paper)">从「信息容器」到「决策中枢」</h2>
-      </div>
-      <div data-anim="up" style="display:flex;flex-direction:column;gap:2.4vh">
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:2vw;align-items:stretch">
-          <div style="border:1px solid rgba(255,255,255,.16);padding:3.2vh 2vw;display:flex;flex-direction:column;gap:1.6vh">
-            <div class="t-meta" style="color:rgba(255,255,255,.5)">LAYER 01</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(3.2vw,5.6vh);line-height:1.1;color:var(--paper)">知识库层</h3>
-            <p style="font-size:max(16px,.94vw);color:rgba(255,255,255,.68);line-height:1.5">学生档案库 · 心理模型库<br/>学习策略库 · 家长赋能库<br/>考前冲刺库</p>
-            <div style="margin-top:auto;font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.4)">记忆 · 存储</div>
-          </div>
-          <div style="border:1px solid var(--accent);padding:3.2vh 2vw;display:flex;flex-direction:column;gap:1.6vh;background:rgba(0,47,167,.08)">
-            <div class="t-meta" style="color:rgba(255,255,255,.5)">LAYER 02</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(3.2vw,5.6vh);line-height:1.1;color:var(--accent-bright)">Copilot分析层</h3>
-            <p style="font-size:max(16px,.94vw);color:rgba(255,255,255,.78);line-height:1.5">智能诊断 · 话术生成<br/>方案设计 · 效果评估<br/>个性化学习处方</p>
-            <div style="margin-top:auto;font-family:var(--mono);font-size:14px;color:var(--accent-bright)">思考 · 分析</div>
-          </div>
-          <div style="border:1px solid rgba(255,255,255,.16);padding:3.2vh 2vw;display:flex;flex-direction:column;gap:1.6vh">
-            <div class="t-meta" style="color:rgba(255,255,255,.5)">LAYER 03</div>
-            <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(3.2vw,5.6vh);line-height:1.1;color:var(--paper)">场景应用层</h3>
-            <p style="font-size:max(16px,.94vw);color:rgba(255,255,255,.68);line-height:1.5">学情诊断 · 动力激发<br/>方法指导 · 家长沟通<br/>考试冲刺 · 习惯养成</p>
-            <div style="margin-top:auto;font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.4)">行动 · 交付</div>
-          </div>
-        </div>
-        <div style="display:flex;align-items:center;gap:1.6vw;justify-content:center;padding-top:1.6vh">
-          <span style="font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.25)">每个学生一个智能档案</span>
-          <span style="font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.25)">|</span>
-          <span style="font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.25)">每个问题一个科学模型</span>
-          <span style="font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.25)">|</span>
-          <span style="font-family:var(--mono);font-size:14px;color:rgba(255,255,255,.25)">每次沟通一次精心设计</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 10 · S16 · Multi-card Brief · 核心技能速查 -->
-<section class="slide light" data-layout="S16" data-animate="field-notes">
-  <div class="canvas-card">
-    <div class="chrome-min">
-      <div class="l">SKILL REFERENCE · AI学习力教练核心技能速查</div>
-      <div class="r">10 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:5vh">
-      <div data-anim="head" style="display:flex;flex-direction:column;gap:1.4vh">
-        <div class="t-meta">QUICK REFERENCE</div>
-        <h2 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.2vw,9.2vh);line-height:1.05;letter-spacing:-.025em">六大核心能力 · 一页速查</h2>
-      </div>
-      <div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,1fr);gap:2vh 1.6vw">
-        <div class="card-fill" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat accent" style="font-size:13px">档案构建</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">快速建立专属知识库</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:var(--text-secondary)">拖入试卷/评语/口述痛点，即建即用</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat accent" style="font-size:13px">智能诊断</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">Copilot学情分析</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:var(--text-secondary)">数据表现+能力短板+非智力因素+差异点</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat accent" style="font-size:13px">心理分析</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">限制性信念识别</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:var(--text-secondary)">基于心理模型库+破冰提问话术生成</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat accent" style="font-size:13px">策略设计</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">个性化学习处方</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:var(--text-secondary)">30天结构化思维+信息循环训练计划</p>
-        </div>
-        <div class="card-fill" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat accent" style="font-size:13px">沟通赋能</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">反焦虑沟通话术</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:var(--text-secondary)">非暴力沟通+情绪ABC+我信息表达</p>
-        </div>
-        <div class="card-accent" style="padding:2.4vh 1.8vw;display:flex;flex-direction:column;justify-content:space-between;min-height:18vh">
-          <div>
-            <div class="t-cat" style="font-size:13px;color:rgba(255,255,255,.72)">冲刺管理</div>
-            <h4 style="font-weight:500;font-size:max(18px,1.15vw);line-height:1.3;margin-top:.8vh">科学冲刺方案</h4>
-          </div>
-          <p style="font-size:max(16px,.86vw);color:rgba(255,255,255,.78)">四周扫雷→保温→仿真→回归计划</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 11 · S09 · Dot Matrix Statement · 金句透气 -->
-<section class="slide hero light" data-layout="S09" data-animate="statement">
-  <div class="canvas-card" style="position:relative">
-    <span class="ring-mat" style="left:5vw;bottom:5vh;width:16vw;height:16vw;color:var(--accent);opacity:.14"></span>
-    <span class="dot-mat" style="right:0;top:0;width:32vw;height:32vw;color:var(--accent);opacity:.16"></span>
-    <div class="chrome-min" style="position:relative;z-index:1">
-      <div class="l">BREATHER · 中场透气</div>
-      <div class="r">11 / 12</div>
-    </div>
-    <div style="flex:1;padding:0;display:flex;align-items:center;justify-content:center;position:relative;z-index:1">
-      <div style="display:flex;flex-direction:column;gap:2vh;align-items:flex-start">
-        <div class="t-meta" style="margin-bottom:1vh">THE NEW WORK MODEL</div>
-        <h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.4vw,9.6vh);line-height:1.15;letter-spacing:-.025em;color:var(--text-primary)">
-          每个学生一个<span style="color:var(--accent)">智能档案</span><br/>
-          每个问题一个<span style="color:var(--accent)">科学模型</span><br/>
-          每次沟通一次<span style="color:var(--accent)">精心设计</span>
-        </h1>
-        <div style="font-family:var(--mono);font-size:14px;color:var(--text-helper);text-align:left;padding-top:1vh">— 数据 + 理论 + AI 驱动的专家级服务</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- 12 · S10 · Split Closing · 结语 -->
-<section class="slide split" data-layout="SWISS-CLOSING-ASCII" data-animate="split-statement">
-  <div class="canvas-card">
-    <div class="split-half">
-      <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
-        <canvas class="ascii-bg" aria-hidden="true"></canvas>
-        <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1">
-          <div class="l">12 / 12</div>
-          <div class="r">CLOSING</div>
-        </div>
-        <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
-          <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em;margin-bottom:1.6vh">MANIFESTO</div>
-          <h2 style="font-family:var(--sans),var(--sans-zh);font-size:min(7.2vw,12.6vh);line-height:.98;letter-spacing:-.03em;font-weight:200;color:#fff">从经验驱动<br/>到<span style="font-style:italic;font-weight:300">AI驱动</span></h2>
-          <div style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1.1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:300;max-width:32ch;margin-top:1.4vh">将教练从重复劳动中解放，专注于高价值的沟通与引导。</div>
-        </div>
-        <div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1">
-          <div class="t-meta" style="color:rgba(255,255,255,.62)">AI学习力教练培训方案</div>
-          <div class="t-meta" style="color:rgba(255,255,255,.62)">2026</div>
-        </div>
-      </div>
-      <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
-        <div class="chrome-min">
-          <div class="l">TAKEAWAYS</div>
-          <div class="r">03 ACTIONS</div>
-        </div>
-        <div data-anim="rules" style="display:flex;flex-direction:column;gap:0">
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">01</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary);margin-bottom:1vh">建档案</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.5;color:var(--text-secondary);font-weight:400">为每个学生创建专属ima知识库，构建学习档案与心理模型双底座</p>
-            </div>
-          </div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--text-primary)">02</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--text-primary);margin-bottom:1vh">用Copilot</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.5;color:var(--text-secondary);font-weight:400">让AI做学情诊断、话术生成和方案设计，教练专注高价值沟通</p>
-            </div>
-          </div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;align-items:start;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)">
-            <div style="font-family:var(--sans);font-weight:200;font-size:min(4.4vw,7.8vh);line-height:.9;color:var(--accent)">03</div>
-            <div>
-              <h3 style="font-family:var(--sans),var(--sans-zh);font-weight:500;font-size:max(18px,1.8vw);line-height:1.2;color:var(--accent);margin-bottom:1vh">持续迭代</h3>
-              <p style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,.94vw);line-height:1.5;color:var(--text-secondary);font-weight:400">从经验驱动升级为「数据+理论+AI」专家级服务，不断优化工作流</p>
-            </div>
-          </div>
-        </div>
-        <div data-anim="foot" class="t-meta" style="color:var(--text-helper);text-align:right">→ 完 · END OF FIELD NOTE</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-</div>
+ <!-- SLIDES CONTENT -->
+ <!-- P1 COVER -->
+ <section class="slide accent" data-animate="hero"><div class="canvas-card"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min"><div class="l">AI教练场景化ima应用·慧佳分专版</div><div class="r">HB·26.06·01/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh"><div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">HUIJIAFEN·AI LEARNING COACH</div><h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(11.6vw,19vh);line-height:.94;letter-spacing:-.025em;color:#fff">AI教练<br/><span style="font-style:italic;font-weight:300">场景化</span>ima应用</h1><div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh"><div class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">慧佳分青少年AI学习力专属版</div><div style="display:flex;justify-content:space-between;align-items:end"><div class="t-meta" style="color:rgba(255,255,255,.6)">慧佳分·2026</div><div class="t-meta" style="color:rgba(255,255,255,.6)">-> swipe</div></div></div></div></div></section>
+ <!-- P2 STATEMENT -->
+ <section class="slide hero light" data-animate="statement"><div class="canvas-card"><div class="chrome-min"><div class="l">培训概述</div><div class="r">02/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:4vh"><div class="split-half" style="flex:1;gap:6vw"><div class="half" style="padding:2vh 0;justify-content:center"><h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(6.4vw,11.2vh);line-height:.96;letter-spacing:-.025em">聚焦青少年<br/><span style="color:var(--accent);font-weight:300">学习力提升</span></h1></div><div class="half" style="padding:2vh 0;justify-content:center;gap:2.4vh"><p class="lead" style="max-width:40ch;font-weight:300">围绕学习力教练日常六大场景设计纯基于ima+Copilot的培训内容。</p><div style="display:flex;flex-direction:column;gap:1.2vh;margin-top:2vh"><div style="font-family:var(--mono);font-size:max(14px,.88vw);letter-spacing:.14em;color:var(--text-helper)">TRAINING OBJECTIVE</div><p class="t-body" style="max-width:44ch">掌握ima知识库与Copilot核心用法构建学习档案+智能分析工作流。</p></div></div></div></div></div></section>
+ <!-- P3 SIX CELLS -->
+ <section class="slide light" data-animate="grid-reveal"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO OVERVIEW</div><div class="r">03/20</div></div><div style="flex:1;padding:0;display:flex;flex-direction:column"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">SIX CORE SCENARIOS</div><h2 class="h-xl-zh" style="font-size:min(5.6vw,10vh)">六大核心场景</h2></div><div class="sub-grid-3-2" data-anim="up"><div class="sub-card"><div class="nb-corner">01</div><div class="ttl">学情诊断</div><div class="desc">从零散信息到精准诊断报告</div></div><div class="sub-card"><div class="nb-corner">02</div><div class="ttl">动力激发</div><div class="desc">打破限制性信念打开心扉</div></div><div class="sub-card"><div class="nb-corner">03</div><div class="ttl">方法指导</div><div class="desc">把无效刷题变成刻意练习</div></div><div class="sub-card"><div class="nb-corner">04</div><div class="ttl">习惯养成</div><div class="desc">建立可持续的学习系统</div></div><div class="sub-card"><div class="nb-corner">05</div><div class="ttl">家校沟通</div><div class="desc">从监督者到陪伴者</div></div><div class="sub-card"><div class="nb-corner">06</div><div class="ttl">考试冲刺</div><div class="desc">科学冲刺与心态调适</div></div></div></div></div></section>
+ <!-- P4 TIMELINE PATH -->
+ <section class="slide light" data-animate="timeline-walk"><div class="canvas-card"><div class="chrome-min"><div class="l">LEARNING PATH</div><div class="r">04/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">CORE PATH</div><h2 class="h-xl-zh" style="font-size:min(5.2vw,9.2vh)">核心学习路径</h2></div><div class="timeline-h" data-anim="up"><div class="tl-row"><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">STEP01</div><div class="name">登录初始化</div><div class="desc">微信扫码多端同步</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">STEP02</div><div class="name">首页交互</div><div class="desc">对话任务划词</div></div></div><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">STEP03</div><div class="name">笔记记录</div><div class="desc">文字录音拍照</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">STEP04</div><div class="name">知识库构建</div><div class="desc">四大导入标签管理</div></div></div><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">STEP05</div><div class="name">团队协作</div><div class="desc">发现共享库</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">STEP06</div><div class="name">助手自动化</div><div class="desc">AI生成播客</div></div></div></div></div></div></div></section>
+ <!-- P5 COVER PART I -->
+ <section class="slide accent" data-animate="hero"><div class="canvas-card"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min"><div class="l">PART I·ima平台基础</div><div class="r">05/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh"><div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">FOUNDATION</div><h1 data-anim="title" style="align-self:center;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(8.4vw,15vh);line-height:.96;letter-spacing:-.025em;color:#fff">ima平台<br/><span style="font-weight:300">基础操作培训</span></h1><div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh"><div class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">系统掌握IMA平台五大核心功能模块</div><div style="display:flex;justify-content:space-between"><div class="t-meta" style="color:rgba(255,255,255,.6)">首页笔记知识库发现助手</div><div class="t-meta" style="color:rgba(255,255,255,.6)">05/20</div></div></div></div></div></section>
+ <!-- P6 HOME -->
+ <section class="slide light" data-animate="statement"><div class="canvas-card"><div class="chrome-min"><div class="l">FOUNDATION·首页功能</div><div class="r">06/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:0"><div class="split-half" style="flex:1;gap:6vw"><div class="half" style="padding:2vh 0;justify-content:center"><div style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">HOME</div><h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.6vw,10vh);line-height:.96;letter-spacing:-.025em">首页功能</h1><div style="margin-top:2vh;display:grid;grid-template-columns:1fr 1fr;gap:2vh"><div class="stat-card thin"><div class="stat-label">对话模式</div><div class="stat-nb" style="font-size:min(2.6vw,4.6vh)">基础问答<span class="stat-unit">+追问</span></div><div class="stat-note">多轮深度对话支持搜索扩展</div></div><div class="stat-card thin"><div class="stat-label">任务模式</div><div class="stat-nb" style="font-size:min(2.6vw,4.6vh)">核心升级<span class="stat-unit">2.0</span></div><div class="stat-note">自然语言AI自主拆解执行</div></div></div></div></div><div class="half" style="padding:2vh 0;justify-content:center;gap:2vh"><div class="t-cat">KEY FEATURES</div><ul style="list-style:none;display:flex;flex-direction:column;gap:1.6vh;padding:0"><li style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1.04vw);line-height:1.5;padding-left:1.4em;position:relative"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>AI划词工具栏：选中文本一键翻译解读保存</li><li style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1.04vw);line-height:1.5;padding-left:1.4em;position:relative"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>快捷键Option+Space快速打开IMA小窗</li><li style="font-family:var(--sans),var(--sans-zh);font-size:max(16px,1.04vw);line-height:1.5;padding-left:1.4em;position:relative"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>PC/mobile/小程序多端无缝同步</li></ul><figure class="tile" style="margin-top:2vh;width:100%"><div class="frame-img r-16x10 fit-contain" style="max-height:18vh"><img src="images/06-ima-home-ui.png" alt="IMA首页界面" loading="lazy"></div><figcaption class="swiss-img-caption"><strong>ima智能工作台</strong><span>16:10 Swisss UI</span></figcaption></figure></div></div></div></div></section>
+ <!-- P7 FOUR CARDS NOTE -->
+ <section class="slide dark" data-animate="four-cards"><div class="canvas-card"><div class="chrome-min"><div class="l">FOUNDATION·笔记功能</div><div class="r">07/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="rule accent" style="width:80px;height:2px;background:var(--accent);border:0"></div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh)">笔记：四种记录方式</h2></div><div class="four-cards" style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.6vw;margin-top:2vh" data-anim="up"><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">01</div><div style="font-weight:300;font-size:max(17px,1.8vw)">文字记录</div><div class="t-body-sm" style="margin-top:auto">支持Markdown表格代码块</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">02</div><div style="font-weight:300;font-size:max(17px,1.8vw)">拍照记录</div><div class="t-body-sm" style="margin-top:auto">识图功能自动提取文字</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">03</div><div style="font-weight:300;font-size:max(17px,1.8vw)">录音纪要</div><div class="t-body-sm" style="margin-top:auto">最长2小时原文速览纪要三件套</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:var(--accent);color:var(--accent-on)"><div class="t-meta" style="color:rgba(255,255,255,.7)">04</div><div style="font-weight:300;font-size:max(17px,1.8vw)">AI辅助写作</div><div class="t-body-sm" style="color:rgba(255,255,255,.8);margin-top:auto">选中文字一键续写润色总结</div></div></div></div></div></section>
+ <!-- P8 SIX CELLS KB -->
+ <section class="slide dark" data-animate="grid-reveal"><div class="canvas-card"><div class="chrome-min"><div class="l">FOUNDATION·知识库</div><div class="r">08/20</div></div><div style="flex:1;padding:0;display:flex;flex-direction:column"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">KNOWLEDGE BASE</div><h2 class="h-xl-zh" style="font-size:min(5.2vw,9.2vh)">构建数字外脑</h2></div><div class="sub-grid-3-2" data-anim="up" style="margin-top:auto"><div class="sub-card" style="background:rgba(255,255,255,.06);color:var(--paper)"><div class="nb-corner">01</div><div class="ttl">本地文件上传</div><div class="desc">PDF/Word/PPT/Excel等十几种格式批量拖拽</div></div><div class="sub-card" style="background:rgba(255,255,255,.06);color:var(--paper)"><div class="nb-corner">02</div><div class="ttl">网页/公众号</div><div class="desc">复制链接粘贴收藏小程序一键导入</div></div><div class="sub-card" style="background:var(--accent);color:var(--accent-on)"><div class="nb-corner" style="color:rgba(255,255,255,.6)">03</div><div class="ttl">微信文件即时导入</div><div class="desc">聊天长按文件用IMA打开自动解析</div></div><div class="sub-card" style="background:rgba(255,255,255,.06);color:var(--paper)"><div class="nb-corner">04</div><div class="ttl">笔记内容转化</div><div class="desc">笔记一键加入个人或共享知识库</div></div><div class="sub-card" style="background:rgba(255,255,255,.06);color:var(--paper)"><div class="nb-corner">05</div><div class="ttl">标签管理</div><div class="desc">批量打标签精准提问的关键</div></div><div class="sub-card" style="background:rgba(255,255,255,.06);color:var(--paper)"><div class="nb-corner">06</div><div class="ttl">权限控制</div><div class="desc">三档权限查看导出仅链接可见</div></div></div></div></div></section>
+ <!-- P9 STATEMENT DISCOVER -->
+ <section class="slide dark" data-animate="statement"><div class="canvas-card"><div class="chrome-min"><div class="l">FOUNDATION·发现+助手</div><div class="r">09/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:0"><div class="split-half" style="flex:1;gap:6vw"><div class="half" style="padding:2vh 0;justify-content:center"><div style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat" style="color:var(--accent)">DISCOVER+AGENT</div><h1 style="font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(5.6vw,10vh);line-height:.96;letter-spacing:-.025em;color:var(--paper)">发现<span style="color:var(--accent)">+</span><br/>助手自动化</h1></div></div><div class="half" style="padding:2vh 0;justify-content:center;gap:2.4vh"><div class="t-cat" style="color:var(--accent)">COLLABORATION</div><ul style="list-style:none;display:flex;flex-direction:column;gap:1.6vh;padding:0"><li style="line-height:1.5;padding-left:1.4em;position:relative;color:rgba(255,255,255,.85)"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>借鉴公开优质知识库学习他人方法</li><li style="line-height:1.5;padding-left:1.4em;position:relative;color:rgba(255,255,255,.85)"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>共享库三级权限控制成员审核协作</li><li style="line-height:1.5;padding-left:1.4em;position:relative;color:rgba(255,255,255,.85)"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>AI生成播客静态文章转化双人对谈1分钟</li><li style="line-height:1.5;padding-left:1.4em;position:relative;color:rgba(255,255,255,.85)"><span style="position:absolute;left:0;top:.6em;width:.5em;height:1px;background:var(--accent)"></span>API凭证接入第三方工作流WorkBuddy</li></ul></div></div></div></div></section>
+ <!-- P10 COVER PART II -->
+ <section class="slide accent" data-animate="hero"><div class="canvas-card"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min"><div class="l">PART II·场景化应用</div><div class="r">10/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh"><div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">SCENARIO-BASED</div><h1 data-anim="title" style="align-self:center;font-weight:200;font-size:min(8.4vw,15vh);line-height:.96;letter-spacing:-.025em;color:#fff">场景化应用<br/><span style="font-weight:300">青少年学习力</span></h1><div data-anim="bottom" style="display:grid;grid-template-rows:auto auto;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh"><div class="lead" style="max-width:52ch;color:rgba(255,255,255,.86)">将ima从信息容器升级为青少年学习力教练的专业决策中枢</div><div style="display:flex;justify-content:space-between"><div class="t-meta" style="color:rgba(255,255,255,.6)">诊断动力方法沟通冲刺</div><div class="t-meta" style="color:rgba(255,255,255,.6)">10/20</div></div></div></div></div></section>
+ <!-- P11 SIX CELLS SCENARIOS -->
+ <section class="slide light" data-animate="grid-reveal"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO OVERVIEW</div><div class="r">11/20</div></div><div style="flex:1;padding:0;display:flex;flex-direction:column"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">FIVE SCENARIOS</div><h2 class="h-xl-zh" style="font-size:min(5.6vw,10vh)">五大场景速览</h2></div><div class="sub-grid-3-2" data-anim="up"><div class="sub-card"><div class="nb-corner">M1</div><div class="ttl">学情诊断</div><div class="desc">从试卷抱怨到精准诊断报告</div></div><div class="sub-card"><div class="nb-corner">M2</div><div class="ttl">动力激发</div><div class="desc">面对摆烂青少年打开心扉</div></div><div class="sub-card"><div class="nb-corner">M3</div><div class="ttl">方法指导</div><div class="desc">无效刷题变刻意练习</div></div><div class="sub-card"><div class="nb-corner">M4</div><div class="ttl">家校沟通</div><div class="desc">监督者到陪伴者</div></div><div class="sub-card"><div class="nb-corner">M5</div><div class="ttl">考试冲刺</div><div class="desc">科学冲刺心态调适</div></div><div class="sub-card" style="background:var(--accent);color:var(--accent-on)"><div class="nb-corner" style="color:rgba(255,255,255,.6)">VALUE</div><div class="ttl">核心价值</div><div class="desc">每个学生一个智能档案每个问题一个科学模型</div></div></div></div></div></section>
+ <!-- P12 DUO COMPARE DIAGNOSIS -->
+ <section class="slide dark" data-animate="duo-mirror"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 01·学情诊断</div><div class="r">12/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:0"><div data-anim="line" style="display:flex;flex-direction:column;gap:.8vh"><div class="t-cat" style="color:var(--accent)">DIAGNOSIS</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh);color:var(--paper)">从一堆试卷和抱怨<br/>到一份精准诊断报告</h2></div><div class="duo-compare" style="margin-top:4vh"><div class="col"><div class="col-tag"><span class="num">BEFORE</span> 传统方式</div><div class="col-desc" style="color:rgba(255,255,255,.7);max-width:100%">家长带来零散信息教练花1-2小时梳理</div><ul class="col-list"><li style="color:rgba(255,255,255,.6)">信息零散碎片化</li><li style="color:rgba(255,255,255,.6)">依赖教练个人经验</li><li style="color:rgba(255,255,255,.6)">缺乏数据支撑</li></ul></div><div class="vrule" style="background:rgba(255,255,255,.2)"></div><div class="col accent"><div class="col-tag"><span class="num" style="color:var(--accent);border-color:var(--accent)">AFTER</span> ima+Copilot</div><div class="col-desc" style="color:rgba(255,255,255,.85);max-width:100%">15分钟产出专业诊断报告</div><ul class="col-list"><li>快速建立学生专属知识库</li><li>智能诊断生成学情初诊报告</li><li>AI准备15分钟家长沟通话术</li></ul><figure class="tile" style="margin-top:2vh;width:100%"><div class="frame-img r-16x9 fit-contain" style="max-height:14vh"><img src="images/12-diagnosis-compare.png" alt="学情诊断对比" loading="lazy"></div><figcaption class="swiss-img-caption"><strong>学情诊断</strong><span>16:9 Swiss Info</span></figcaption></figure></div></div></div></div></section>
+ <!-- P13 TIMELINE DIAGNOSIS -->
+ <section class="slide light" data-animate="timeline-walk"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 01·WORKFLOW</div><div class="r">13/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">THREE-STEP WORKFLOW</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh)">诊断到共识三步工作流</h2></div><div class="timeline-h" data-anim="up"><div class="tl-row"><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">STEP01</div><div class="name">档案建立</div><div class="desc">创建学生专属知识库</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">STEP02</div><div class="name">智能诊断</div><div class="desc">Copilot生成学情报告</div></div></div><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">STEP03</div><div class="name">共识准备</div><div class="desc">AI生成沟通话术</div></div></div></div></div><div class="t-meta" style="text-align:center">原来1-2小时 现在15分钟</div></div></div></section>
+ <!-- P14 THREE FORCES MOTIVATION -->
+ <section class="slide light" data-animate="three-forces"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 02·动力激发</div><div class="r">14/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1vh"><div class="t-cat accent">MOTIVATION</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh)">打破限制性信念</h2></div><div class="three-forces" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.6vw;flex:1" data-anim="up"><div class="card-fill" style="padding:2.8vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh"><div style="font-weight:200;font-size:min(3.6vw,6.4vh);color:var(--accent);line-height:1">01</div><div style="font-weight:400;font-size:max(17px,1.5vw)">心理档案库</div><div class="t-body-sm" style="margin-top:auto">上传冰山理论动力三大病毒萨提亚等</div></div><div class="card-fill" style="padding:2.8vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh"><div style="font-weight:200;font-size:min(3.6vw,6.4vh);color:var(--accent);line-height:1">02</div><div style="font-weight:400;font-size:max(17px,1.5vw)">探索性沟通</div><div class="t-body-sm" style="margin-top:auto">分析限制性信念给出破冰提问话术</div></div><div class="card-fill" style="padding:2.8vh 1.6vw;display:flex;flex-direction:column;gap:1.2vh"><div style="font-weight:200;font-size:min(3.6vw,6.4vh);color:var(--accent);line-height:1">03</div><div style="font-weight:400;font-size:max(17px,1.5vw)">激励方案设计</div><div class="t-body-sm" style="margin-top:auto">结合编程兴趣设计迁移计划输出表格</div></div></div></div></div></section>
+ <!-- P15 FOUR CARDS METHODS -->
+ <section class="slide dark" data-animate="four-cards"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 03·学习方法</div><div class="r">15/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="rule accent" style="width:80px;height:2px;background:var(--accent);border:0"></div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh)">四大核心学习策略</h2></div><div class="four-cards" style="display:grid;grid-template-columns:repeat(4,1fr);gap:1.6vw;margin-top:2vh" data-anim="up"><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">01</div><div style="font-weight:300;font-size:max(17px,1.8vw)">高强度用脑</div><div class="t-body-sm" style="margin-top:auto">重构做题流程避免假努力</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">02</div><div style="font-weight:300;font-size:max(17px,1.8vw)">费曼技巧</div><div class="t-body-sm" style="margin-top:auto">教别人检验和深化理解</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:rgba(255,255,255,.06);color:var(--paper)"><div class="t-meta" style="color:var(--accent)">03</div><div style="font-weight:300;font-size:max(17px,1.8vw)">信息循环</div><div class="t-body-sm" style="margin-top:auto">错题本淘金循环持续迭代</div></div><div class="card-fill" style="padding:2.4vh 1.4vw;display:flex;flex-direction:column;gap:1vh;background:var(--accent);color:var(--accent-on)"><div class="t-meta" style="color:rgba(255,255,255,.7)">04</div><div style="font-weight:300;font-size:max(17px,1.8vw)">结构化思维</div><div class="t-body-sm" style="color:rgba(255,255,255,.8);margin-top:auto">思维导图整理知识点</div></div></div></div></div></section>
+ <!-- P16 TIMELINE 30-DAY -->
+ <section class="slide light" data-animate="timeline-walk"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 03·30-DAY PLAN</div><div class="r">16/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">30-DAY PLAN</div><h2 class="h-xl-zh" style="font-size:min(4.8vw,8.6vh)">30天结构化思维训练</h2></div><div class="timeline-h" data-anim="up"><div class="tl-row"><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">WEEK01</div><div class="name">思维导图</div><div class="desc">每天15分钟整理</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">WEEK02</div><div class="name">费曼输出</div><div class="desc">教别人讲解错题</div></div></div><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">WEEK03</div><div class="name">错题循环</div><div class="desc">建立信息循环系统</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">WEEK04</div><div class="name">模拟冲刺</div><div class="desc">模拟测试与复盘</div></div></div></div></div><div class="t-meta" style="text-align:center">从讲题升级为优化学习系统</div></div></div></section>
+ <!-- P17 DUO COMPARE FAMILY -->
+ <section class="slide hero dark" data-animate="duo-mirror"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 04·家校沟通</div><div class="r">17/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:0"><div data-anim="line" style="display:flex;flex-direction:column;gap:.8vh"><div class="t-cat" style="color:var(--accent)">FAMILY-SCHOOL</div><h2 class="h-xl-zh" style="font-size:min(4.6vw,8.2vh);color:var(--paper)">从监督者到陪伴者</h2></div><div class="duo-compare" style="margin-top:4vh"><div class="col"><div class="col-tag"><span class="num">BEFORE</span> 焦虑家长</div><div class="col-desc" style="color:rgba(255,255,255,.7);max-width:100%">每天盯作业催学习亲子关系紧张</div><ul class="col-list"><li style="color:rgba(255,255,255,.6)">情绪化的指责</li><li style="color:rgba(255,255,255,.6)">无效的监督</li><li style="color:rgba(255,255,255,.6)">亲子关系恶化</li></ul></div><div class="vrule" style="background:rgba(255,255,255,.2)"></div><div class="col accent"><div class="col-tag"><span class="num" style="color:var(--accent);border-color:var(--accent)">AFTER</span> 赋能教练</div><div class="col-desc" style="color:rgba(255,255,255,.85);max-width:100%">教练成为家长的育儿智囊团</div><ul class="col-list"><li>先共情肯定妈妈的情绪</li><li>再重构玩手机是逃避压力</li><li>给行动用我信息表达关心</li></ul></div></div></div></div></section>
+ <!-- P18 TIMELINE EXAM -->
+ <section class="slide light" data-animate="timeline-walk"><div class="canvas-card"><div class="chrome-min"><div class="l">SCENARIO 05·考前冲刺</div><div class="r">18/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat accent">FINAL SPRINT</div><h2 class="h-xl-zh" style="font-size:min(4.6vw,8.2vh)">考前冲刺四周科学方案</h2></div><div class="timeline-h" data-anim="up"><div class="tl-row"><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">WEEK01</div><div class="name">扫雷计划</div><div class="desc">错题本知识定位</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">WEEK02</div><div class="name">保温计划</div><div class="desc">基础题保持手感</div></div></div><div class="th-node up accent"><div class="dot"></div><div class="label"><div class="yr">WEEK03</div><div class="name">仿真计划</div><div class="desc">模拟考试预演</div></div></div><div class="th-node down"><div class="dot"></div><div class="label"><div class="yr">WEEK04</div><div class="name">回归计划</div><div class="desc">课本笔记调作息</div></div></div></div></div><div class="t-meta" style="text-align:center">兼顾复习策略与心理建设</div></div></div></section>
+ <!-- P19 MANIFESTO SKILLS -->
+ <section class="slide hero dark" data-animate="manifesto"><div class="canvas-card"><div class="chrome-min"><div class="l">CORE SKILLS</div><div class="r">19/20</div></div><div style="flex:1;padding:0;display:grid;grid-template-rows:auto 1fr auto;gap:2.4vh"><div data-anim="line" style="display:flex;flex-direction:column;gap:1.4vh"><div class="t-cat" style="color:var(--accent)">MASTER SUMMARY</div><h1 style="font-weight:200;font-size:min(6.8vw,12vh);line-height:.96;letter-spacing:-.025em;color:var(--paper)">AI学习力教练<br/><span style="color:var(--accent)">核心技能速查</span></h1></div><div data-anim="up" style="display:grid;grid-template-columns:repeat(5,1fr);gap:1.2vw;flex:1;align-content:center"><div class="card-fill" style="padding:1.8vh 1.2vw;background:rgba(255,255,255,.06);color:var(--paper);display:flex;flex-direction:column;gap:.8vh"><div class="t-meta" style="color:var(--accent)">M1</div><div style="font-size:max(16px,1.2vw)">学情诊断</div><div class="t-body-sm" style="color:rgba(255,255,255,.6);font-size:max(14px,.8vw)">档案建立智能报告共识话术</div></div><div class="card-fill" style="padding:1.8vh 1.2vw;background:rgba(255,255,255,.06);color:var(--paper);display:flex;flex-direction:column;gap:.8vh"><div class="t-meta" style="color:var(--accent)">M2</div><div style="font-size:max(16px,1.2vw)">动力激发</div><div class="t-body-sm" style="color:rgba(255,255,255,.6);font-size:max(14px,.8vw)">心理档案破冰话术兴趣迁移</div></div><div class="card-fill" style="padding:1.8vh 1.2vw;background:var(--accent);color:var(--accent-on);display:flex;flex-direction:column;gap:.8vh"><div class="t-meta" style="color:rgba(255,255,255,.7)">M3</div><div style="font-size:max(16px,1.2vw)">方法指导</div><div class="t-body-sm" style="color:rgba(255,255,255,.8);font-size:max(14px,.8vw)">策略诊断学习处方30天计划</div></div><div class="card-fill" style="padding:1.8vh 1.2vw;background:rgba(255,255,255,.06);color:var(--paper);display:flex;flex-direction:column;gap:.8vh"><div class="t-meta" style="color:var(--accent)">M4</div><div style="font-size:max(16px,1.2vw)">家校沟通</div><div class="t-body-sm" style="color:rgba(255,255,255,.6);font-size:max(14px,.8vw)">家长赋能库反焦虑话术互动游戏</div></div><div class="card-fill" style="padding:1.8vh 1.2vw;background:rgba(255,255,255,.06);color:var(--paper);display:flex;flex-direction:column;gap:.8vh"><div class="t-meta" style="color:var(--accent)">M5</div><div style="font-size:max(16px,1.2vw)">考试冲刺</div><div class="t-body-sm" style="color:rgba(255,255,255,.6);font-size:max(14px,.8vw)">科学方案冥想引导心态调适</div></div></div><div data-anim="up" class="accent-block tight" style="padding:2vh 2vw;display:flex;justify-content:space-between"><span style="font-family:var(--mono);font-size:max(14px,.88vw)">每个学生一个智能档案</span><span style="font-family:var(--mono);font-size:max(14px,.88vw)">每个问题一个科学模型</span><span style="font-family:var(--mono);font-size:max(14px,.88vw)">每次沟通一次精心设计</span></div><figure class="tile" style="margin-top:1.4vh;width:100%"><div class="frame-img r-21x9 fit-contain"><img src="images/19-skills-map.png" alt="AI学习力教练技能地图" loading="lazy"></div><figcaption class="swiss-img-caption"><strong>核心技能地图</strong><span>21:9 Swiss System</span></figcaption></figure></div></div></section>
+ <!-- P20 SPLIT CLOSING -->
+ <section class="slide split" data-animate="split-statement"><div class="canvas-card"><div class="split-half"><div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden"><canvas class="ascii-bg" aria-hidden="true"></canvas><div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1"><div class="l">20/20</div><div class="r">CLOSING</div></div><div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1"><div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em;margin-bottom:1.6vh">MANIFESTO</div><h2 style="font-weight:200;font-size:min(8vw,14vh);line-height:.94;letter-spacing:-.025em;color:#fff">数据<span style="font-style:italic;font-weight:300">+</span>理论<br/><span style="font-style:italic;font-weight:300">+</span>AI驱动</h2><div style="font-size:max(14px,1vw);line-height:1.6;color:rgba(255,255,255,.82);font-weight:400;max-width:36ch">经验驱动到数据+理论+AI驱动的专家级服务</div></div><div data-anim="signature" style="display:flex;justify-content:space-between;align-items:end;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1"><div class="t-meta" style="color:rgba(255,255,255,.62)">慧佳分青少年AI学习力</div><div class="t-meta" style="color:rgba(255,255,255,.62)">26.06</div></div></div><div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between"><div class="chrome-min"><div class="l">TAKEAWAYS</div><div class="r">03 RULES</div></div><div data-anim="list" style="display:flex;flex-direction:column;gap:2.4vh;flex:1;justify-content:center"><div style="display:flex;flex-direction:column;gap:1.6vh"><div style="display:flex;gap:1.2vw;align-items:flex-start"><span style="font-family:var(--mono);font-weight:500;font-size:max(14px,1.2vw);color:var(--accent)">01</span><div><div style="font-weight:400;font-size:max(16px,1.4vw)">每个学生一个智能档案</div><div class="t-body-sm" style="margin-top:.4vh">用ima知识库作为记忆载体</div></div></div><div style="display:flex;gap:1.2vw;align-items:flex-start"><span style="font-family:var(--mono);font-weight:500;font-size:max(14px,1.2vw);color:var(--accent)">02</span><div><div style="font-weight:400;font-size:max(16px,1.4vw)">每个问题一个科学模型</div><div class="t-body-sm" style="margin-top:.4vh">Copilot作为思考引擎</div></div></div><div style="display:flex;gap:1.2vw;align-items:flex-start"><span style="font-family:var(--mono);font-weight:500;font-size:max(14px,1.2vw);color:var(--accent)">03</span><div><div style="font-weight:400;font-size:max(16px,1.4vw)">每次沟通一次精心设计</div><div class="t-body-sm" style="margin-top:.4vh">AI驱动的专业级服务体验</div></div></div></div></div><div style="border-top:1px solid var(--border-subtle);padding-top:1.6vh;display:flex;justify-content:space-between"><div class="t-meta">慧佳分AI学习力</div><div class="t-meta">20/20</div></div></div></div></div></section>
 
 <div id="nav"></div>
 
@@ -2813,3 +2350,5 @@ if(motion){
 </script>
 </body>
 </html>
+
+
