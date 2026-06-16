@@ -13,6 +13,7 @@
 | 01 | [AI教练场景化ima应用](./training/ai-coach-ima/index.html) | 网页 PPT | 五大场景 × ima + Copilot 实战工作流 |
 | 02 | [心光AI学习力评测系统培训课](./training/xinguang-assessment/index.html) | 网页 PPT | 1天集训 · 四维模型 · 雷达图解读 · 家长沟通术 |
 | 03 | [ima知识库赋能学习力教练机构](./training/ima-coach-institution/index.html) | 网页 PPT | 6周精进 · 三位一体 · 四大知识库 · 商业转化 |
+| 04 | [ima知识库与AI智能体服务](./training/ima-advanced/index.html) | 网页 PPT | 进阶培训 · 知识蒸馏 · Skills生态 · 9大AI项目矩阵 |
 
 > 更多培训内容陆续建设中。
 
