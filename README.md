@@ -11,6 +11,7 @@
 | # | 内容 | 格式 | 说明 |
 |---|------|------|------|
 | 01 | [AI教练场景化ima应用](./training/ai-coach-ima/index.html) | 网页 PPT | 五大场景 × ima + Copilot 实战工作流 |
+| 02 | [心光AI学习力评测系统培训课](./training/xinguang-assessment/index.html) | 网页 PPT | 1天集训 · 四维模型 · 雷达图解读 · 家长沟通术 |
 
 > 更多培训内容陆续建设中。
 
@@ -37,6 +38,9 @@ ailearn/
 ├── README.md
 ├── training/                  # 培训内容
 │   └── ai-coach-ima/          # 第1期：AI教练场景化ima应用
+│       ├── index.html         # 12页瑞士风网页PPT
+│       └── images/            # 配图素材
+│   └── xinguang-assessment/   # 第2期：心光AI学习力评测系统培训
 │       ├── index.html         # 12页瑞士风网页PPT
 │       └── images/            # 配图素材
 └── .gitignore
